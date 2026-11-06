@@ -50,6 +50,13 @@ Create Annotations for the attached picture in yolo annotations in json. In the 
 * Save the `.json` file in the `Dataset/Annotated/` folder with the same name as the image.
 ### Generate Annotated Picture
 * Move to `Tools` folder `$ cd Tools/`
+* Install dependencies
+    ```
+    pipx install opencv-contrib-python --include-deps
+    sudo apt install python3-opencv -y
+    sudo apt install python3-shapely
+    
+    ```
 * Execute `python3 driver.py -f 31_07_2026_2C7`
 * Run `python visualizer.py -f <filename>`
 	- Resolve dependencies if there is any issue related to that.
