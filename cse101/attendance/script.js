@@ -1,6 +1,6 @@
 // Web App Deployment Endpoint
 //Change the SCRIPT_URL with the deployed Googlescript URL 
-const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyA_C5M-C2DG8Qpk-jPT4drQ3zcnGaThA7eC1hDcx3fAzWbIpfBLw829md9cBxR3_hO/exec";
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxmQf4SRrJny6HhxkboOB2Dtx2wF0D-mTK9C_LzxUt4dv5h9o47m5ikwJxi9OrYxfMZ/exec";
 
 let configData = {};
 let isZoomed = false;
